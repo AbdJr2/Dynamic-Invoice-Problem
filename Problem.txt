@@ -1,0 +1,33 @@
+we want to print invoice. 
+This invoice could be for food and its' subcategories, for electronic devices, for furniture, for ....
+Now this needs to be dynamic, or in other words, this invoice should be a single class that could accept any form of input it takes
+
+Now Our problem also lies with what we want to print.
+Say someone ordered Shoes for his office. 
+They said they wanted 1000 pair of shoes:
+
+now we need to ask: 
+1- how many of them are for men, and how many are for woment
+2- What type of shoes are they (working shoes, field shoes...etc.)
+3- What sizes of shoes do you want?
+4- is the shoe size in US format, EU format or what?
+
+How can we handle this problem?
+do we think of it as a filtering problem:
+
+1000 shoes
+  ||
+  ||
+ \  /
+  \/
+50 Women shoes
+  ||
+  ||
+ \  /
+  \/
+12 field shoes
+  ||
+  ||
+ \  /
+  \/
+4 size 13, 4 size 14, 3 size 12, 1 size 11
